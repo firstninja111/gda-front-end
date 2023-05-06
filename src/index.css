@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='tel'] {
+  border-bottom: solid 1px #d1d5db;
+  outline: none;
+  padding: 5px;
+}
+
+input[type='tel']:focus {
+  border-bottom: solid 1px #67a9fa;
+}
+
+/* Crack by RiserStern */
+.highcharts-credits {
+  display: none;
+}
+
+.range-background {
+  background: linear-gradient(to right, green, yellow, red);
+}
+
+.dark {
+  background: #1f2937;
+  color: #fff;
+}
+
+.light {
+  background: #fff;
+  color: #000;
+}
+.reading-content{
+  width: 100%;
+}
+
+.reading-content.tips h3{
+  margin: 20px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .reading-content h3 {
+    font-size: 0.9rem !important;
+  }
+}
+.reading-content h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #4b46ca;
+  margin-bottom: 0.1rem
+}
+
+.reading-content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4b46ca;
+  margin-bottom: 0.1rem
+}
+
+.reading-content h3.purple {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: purple;
+  margin-bottom: 0.1rem
+}
+
+.reading-content h3.red-label {
+  color: #800080 !important
+}
+
+.pure-range + div {
+  display: none;
+}
+
+.lesson-html-content h3 {
+  line-height: 26px;
+  font-size: 18px;
+}
+
+.lesson-html-content p {
+  color: #666666;
+  font-size: 16px;
+  margin: 0px 0px 9px;
+  line-height: 20px;
+}
+
+.lesson-html-content li {
+  color: #666666;
+}

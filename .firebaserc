@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "gda-dev-01"
+    "prod": "gda-prod"
+  }
+}
